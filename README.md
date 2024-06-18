@@ -3,8 +3,8 @@ Creacion del mejor juego jamas visto
 
 
 # Equipo
-Julio J valle
-Enzo Barro 
-Marcelo bolaños
-Steven caicedo
-GPT 4
+- Julio J valle
+- Enzo Barro
+- Marcelo bolaños
+- Steven caicedo
+- GPT 4
