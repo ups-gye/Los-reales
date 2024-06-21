@@ -6,20 +6,20 @@ import java.awt.event.ActionListener;
 public class EcuaPreguntas extends JFrame {
 
     public EcuaPreguntas() {
-        // Configuración de la ventana
+     
         setTitle("EcuaPreguntas");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        // Crear el panel principal con una imagen de fondo
+     
         BackgroundPanel mainPanel = new BackgroundPanel(new ImageIcon("image.jpg").getImage());
         mainPanel.setLayout(new GridBagLayout());
 
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(10, 10, 10, 10);
 
-        // Título estilizado con efecto 3D y brillo
+      
         TitlePanel titlePanel = new TitlePanel("EcuaPreguntas");
         titlePanel.setPreferredSize(new Dimension(800, 200));
         titlePanel.setOpaque(false);
@@ -29,7 +29,7 @@ public class EcuaPreguntas extends JFrame {
         gbc.anchor = GridBagConstraints.NORTH;
         mainPanel.add(titlePanel, gbc);
 
-        // Panel de botones
+
         JPanel buttonPanel = new JPanel();
         buttonPanel.setOpaque(false); // Hacer el panel transparente
         buttonPanel.setLayout(new GridLayout(3, 1, 20, 20));
@@ -88,7 +88,7 @@ public class EcuaPreguntas extends JFrame {
         });
     }
 
-    // Clase para el panel de fondo con imagen
+   
     class BackgroundPanel extends JPanel {
         private Image backgroundImage;
 
@@ -103,7 +103,7 @@ public class EcuaPreguntas extends JFrame {
         }
     }
 
-    // Clase personalizada para botones con diseño de nube
+
     class CloudButton extends JButton {
         public CloudButton(String text) {
             super(text);
@@ -141,7 +141,7 @@ public class EcuaPreguntas extends JFrame {
         }
     }
 
-    // Clase personalizada para el panel del título con efecto 3D y brillo
+
     class TitlePanel extends JPanel {
         private String title;
         private float hue = 0.0f;
