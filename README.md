@@ -7,4 +7,4 @@ Creacion del mejor juego jamas visto
 - Enzo Barro
 - Marcelo bolaños
 - Steven caicedo
-- GPT 4
+
